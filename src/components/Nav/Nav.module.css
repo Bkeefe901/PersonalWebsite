@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    justify-content: end;
+    padding-right: 5vw;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--brightest);
+    margin: 0 30px;
+}
