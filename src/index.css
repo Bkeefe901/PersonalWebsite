@@ -1,12 +1,11 @@
+@import '/css/rx-100.css';
+
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'RX100-Regular', Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: var(--background);
-
-
-
-
+  background-color: var(--darkest);
 
 
   --background: #1d2d44;
@@ -14,6 +13,9 @@
   --middle: #3e5c76;
   --light: #748cab;
   --brightest: #f0ebd8;
+
+
+  
 
   /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
