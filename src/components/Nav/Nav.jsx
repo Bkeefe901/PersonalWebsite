@@ -3,25 +3,48 @@ import { Link } from 'react-router-dom';
 
 export default function Nav() {
 
-    return (
+
+
+        return (
         <nav className={style.nav}>
-            <div className={style.navDiv}>
-                <Link to={'/'} >
+
+                <Link to={'/'} className={style.home}>
                     <h3>Home</h3>
                 </Link>
-                <Link to={'/projects'} >
+                <Link to={'/projects'} className={style.projects}>
                     <h3>Projects</h3>
                 </Link>
-            </div>
-            <div className={style.navDiv2}>
-                <Link to={'/blog'} >
+
+                <Link to={'/blog'} className={style.blog}>
                     <h3>Blog</h3>
                 </Link>
-                <Link to={'/contact'} >
+                <Link to={'/contact'} className={style.contact}>
                     <h3>Contact</h3>
                 </Link>
-            </div>
+
 
         </nav>
     )
+
+    // return (
+    //     <nav className={style.nav}>
+    //         <div className={style.navDiv}>
+    //             <Link to={'/'} >
+    //                 <h3>Home</h3>
+    //             </Link>
+    //             <Link to={'/projects'} >
+    //                 <h3>Projects</h3>
+    //             </Link>
+    //         </div>
+    //         <div className={style.navDiv2}>
+    //             <Link to={'/blog'} >
+    //                 <h3>Blog</h3>
+    //             </Link>
+    //             <Link to={'/contact'} >
+    //                 <h3>Contact</h3>
+    //             </Link>
+    //         </div>
+
+    //     </nav>
+    // )
 }
