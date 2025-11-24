@@ -2,5 +2,21 @@ iframe{
     width: 800px;
     height: 450px;
     margin-left: 30%;
+}
+
+/* .gardenCard {
+    background-color: var(--light);
+    height: 15%;
+    
+}
+
+.todoListCard {
+    background-color: var(--middle);
+    height: 15%;
 
 }
+
+.blackjackCard {
+    background-color: var(--background);
+    height: 15%;
+} */

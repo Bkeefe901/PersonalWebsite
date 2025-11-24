@@ -10,26 +10,32 @@
 
 
 .header{
-    height: 60vh;
+    height: 30vh;
 }
 
 h1 {
     padding-left: 5vw;
 }
 
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
 .gardenCard {
     background-color: var(--light);
-    
+    height: 15%;
     
 }
 
 .todoListCard {
     background-color: var(--middle);
-
+    height: 15%;
 
 }
 
 .blackjackCard {
     background-color: var(--background);
-
+    height: 15%;
 }
