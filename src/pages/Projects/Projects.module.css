@@ -26,16 +26,18 @@ h1 {
 .gardenCard {
     background-color: var(--light);
     height: 15%;
+    overflow: hidden;
     
 }
 
 .todoListCard {
     background-color: var(--middle);
     height: 15%;
-
+    overflow: hidden;
 }
 
 .blackjackCard {
     background-color: var(--background);
     height: 15%;
+    overflow: hidden;
 }
