@@ -46,7 +46,7 @@ export default function Projects() {
                     animate={{ height: card == 'garden' ? '70%' : '15%'}}
                     >
                     <h1>Garden Tracker</h1>
-                    <iframe src="https://github.com/Bkeefe901" frameborder="0"></iframe>
+                    <iframe src="https://superbad.com/" frameborder="0"></iframe>
                 </motion.div>
                 <motion.div 
                     className={style.todoListCard}
@@ -54,7 +54,7 @@ export default function Projects() {
                     animate={{ height: card == 'todo' ? '70%' : '15%'}}
                     >
                     <h1>To Do List</h1>
-                    <iframe src="https://github.com/Bkeefe901" frameborder="0"></iframe>
+                    <iframe src="https://superbad.com/" frameborder="0"></iframe>
                 </motion.div>
                 <motion.div 
                     className={style.blackjackCard}
@@ -62,7 +62,7 @@ export default function Projects() {
                     animate={{ height: card == 'bj' ? '70%' : '15%'}}
                     >
                     <h1>BlackJack</h1>
-                    <iframe src="https://github.com/Bkeefe901" frameborder="0"></iframe>
+                    <iframe src="https://superbad.com/" frameborder="0"></iframe>
                 </motion.div>
             </div>
 
