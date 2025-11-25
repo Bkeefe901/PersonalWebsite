@@ -15,6 +15,12 @@
 
 h1 {
     padding-left: 5vw;
+    margin: 2vh 0;
+    
+}
+
+div >h1{
+    font-size: 4vh;
 }
 
 .cardContainer {
@@ -49,9 +55,9 @@ h1 {
 }
 
 iframe {
-    width: 800px;
-    height: 400px;
-    margin-top: 6%;
+    width: 40vw;
+    height: 30vh;
+    margin-top: 10vh;
     margin-right: 2%;
     border: 2px solid black;
 }
