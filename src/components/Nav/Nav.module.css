@@ -60,7 +60,7 @@
 
 @keyframes contactRight {
     0% {
-        transform: translateX(-300%);
+        transform: translateX(-200%);
         opacity: 0;
     }
 

@@ -15,9 +15,9 @@ export default function Nav() {
                     <h3>Projects</h3>
                 </Link>
 
-                <Link to={'/blog'} className={style.blog}>
+                {/* <Link to={'/blog'} className={style.blog}>
                     <h3>Blog</h3>
-                </Link>
+                </Link> */}
                 <Link to={'/contact'} className={style.contact}>
                     <h3>Contact</h3>
                 </Link>

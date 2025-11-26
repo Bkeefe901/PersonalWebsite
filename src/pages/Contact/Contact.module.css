@@ -1,0 +1,39 @@
+.contactMain{
+    display: flex;
+    padding: 10vh;
+    padding-top: 2vh;
+
+}
+
+.title{
+    padding-left: 15vw;
+}
+
+img{
+    margin: 0 10vw;
+    margin-right: 1vw;
+    border: 5px solid var(--light);
+    border-radius: 15px;
+    height: 15%;
+    width: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+article{
+    padding: 25px;
+    padding-top: 0;
+    width: 50%;
+}
+
+p{
+    font-size: large;
+}
+
+li> a{
+    font-size: 24px;
+    color: var(--light);
+}
