@@ -18,8 +18,8 @@ export default function Contact() {
 
                     <p> Below you’ll find links to connect with me or check out my work. Let’s build something great together. </p>
                     <ul>
-                        <li><a href="https://www.linkedin.com/in/brady-keefe901/">LinkedIn</a></li>
-                        <li><a href="https://github.com/Bkeefe901">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/brady-keefe901/" target='_blank'>LinkedIn</a></li>
+                        <li><a href="https://github.com/Bkeefe901" target='_blank'>Github</a></li>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
                     </ul>

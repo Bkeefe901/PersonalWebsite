@@ -4,3 +4,31 @@
     padding-left: 5vw;
 }
 
+section{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+}
+
+section> img{
+    height: 400px;
+    width: auto;
+}
+
+.one{
+    background-color: var(--background);
+    height: 400px;
+    width: 400px;
+}
+
+.two{
+    background-color: var(--middle);
+    height: 400px;
+    width: 400px;
+}
+
+.three{
+    background-color: var(--light);
+    height: 400px;
+    width: 400px;
+}

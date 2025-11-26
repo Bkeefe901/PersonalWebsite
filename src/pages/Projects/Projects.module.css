@@ -62,6 +62,11 @@ div >h1{
     font-size: 18px;
     line-height: 1.4;
     margin-left: 10px;
+    padding-left: 20px;
+}
+
+.descriptionDiv> a{
+    color: var(--background);
 }
 
 iframe {
