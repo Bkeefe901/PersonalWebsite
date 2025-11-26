@@ -11,24 +11,26 @@ section{
 }
 
 section> img{
-    height: 400px;
-    width: auto;
+    height: 31vh;
+    aspect-ratio: 1 / 1;
 }
 
 .one{
     background-color: var(--background);
-    height: 400px;
-    width: 400px;
+    /* height: 400px;
+    width: 400px; */
+    height: 31vh;
+    aspect-ratio: 1 / 1;
 }
 
 .two{
     background-color: var(--middle);
-    height: 400px;
-    width: 400px;
+    height: 31vh;
+    aspect-ratio: 1 / 1;
 }
 
 .three{
     background-color: var(--light);
-    height: 400px;
-    width: 400px;
+    height: 31vh;
+    aspect-ratio: 1 / 1;
 }
